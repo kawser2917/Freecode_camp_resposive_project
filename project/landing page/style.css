@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* Navbar design start */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: auto;
+    background-color: azure;
+     
+}
+
+#header-img{
+    width: 125px;
+    height: 125px;
+}
+
+#nav-bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+ 
+}
+
+#nav-bar ul li{
+    display: inline-block;
+
+}
+#nav-bar ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 35px 35px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+/* Navbar design end */
+
+/* main section design start */
+
+#form input{
+    display: block;
+    margin: 0 auto;
+}
+
+#email{
+     outline: none;
+     border-radius: 5px;
+     width: 20%;
+     
+     padding: 10px;
+      
+}
+
+#submit{
+    padding: .65rem;
+    border-radius: .25rem;
+     
+    bottom: 200px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 6rem auto;
+}
+.icon{
+    font-size: 3rem;
+    color: yellowgreen;
+}
+
+.desc{
+    margin-left: 3rem;
+}
+/* main section design end */
+
+/* video design start  */
+#video{
+   display: block;
+   margin: auto;
+}
+/* video design end */
+
+/* Card design start */
+
+#pricing{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.card{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+ 
+}
+
+.card h2{
+    background-color: gray;
+    font-weight: 400;
+}
+
+.card button{
+    background-color: yellow;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 4px 4px rgb(65, 59, 59);
+    transform: scale(1.1);
+}
+
+#footer{
+    width: 80%;
+    margin: 0 auto;
+    background-color: gray;
+    
+    text-align: right;
+     
+}
+
+.footer_link a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    
+}
+
+@media screen and (max-width: 800px){
+    #pricing{
+        flex-direction: column;
+        
+    }
+}
+
+
+
+
+
